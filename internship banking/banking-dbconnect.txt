@@ -1,0 +1,36 @@
+package BankApplication;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DbConnect {
+	
+
+		static Connection con=null;
+	    public static Connection getConnect()
+	    {
+	        try
+	        {
+	            Class.forName("com.mysql.jdbc.Driver");
+	            System.out.println("Driver Loaded..");
+	            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
+	            System.out.println("Connennection Established..");
+	        }
+	        catch(Exception e)
+	        {
+	            System.err.println(e);
+	            e.printStackTrace();
+	        }
+	        return con;
+	    }
+	    public static void main(String[] args) {
+	    	Operation obj=new Operation();
+	    	//obj.insert();
+	        obj.deposit();
+	        //obj.withdraw();
+	        //obj.delete();
+	    	}
+
+
+
+
+}

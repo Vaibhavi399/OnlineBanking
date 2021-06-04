@@ -1,0 +1,84 @@
+1 Create account
+2 Deposit
+3 Withdraw
+4 Delete
+5 Exit
+
+Enter your choice
+1
+Driver Loaded..
+Connection Established..
+Enter new account details......
+Enter account no = 
+1008
+Enter name = 
+vishali
+Enter mobile number = 
+4545
+Enter address = 
+dhule
+Enter email = 
+ass@gmal.com
+Enter balance = 
+123
+Enter password = 
+3355
+New User Inserted
+
+
+///////////////////////////////////////////////////////
+
+1 Create account
+2 Deposit
+3 Withdraw
+4 Delete
+5 Exit
+
+Enter your choice
+2
+Driver Loaded..
+Connection Established..
+Enter account number=
+
+1008
+Enter the amount you want to insert
+5
+Account Balance = 150
+New Record updated
+
+///////////////////////////////////////////
+
+1 Create account
+2 Deposit
+3 Withdraw
+4 Delete
+5 Exit
+
+Enter your choice
+3
+Driver Loaded..
+Connection Established..
+Enter account number=
+
+1008
+Enter the amount you want to insert
+55
+Account Balance = 155
+New Record updated
+
+////////////////////
+1 Create account
+2 Deposit
+3 Withdraw
+4 Delete
+5 Exit
+
+Enter your choice
+4
+Driver Loaded..
+Connection Established..
+Enter Account Number= 
+
+1008
+record Deleted Successfully
+
